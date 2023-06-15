@@ -1,4 +1,150 @@
-h1{
-    font-size: 28px;
-    color: blueviolet;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-style: monospace;
+
 }
+body{
+    background-color: #FE4C40;
+    
+}
+
+#fondo{
+    width: 1519px;
+    height: 800px;
+
+}
+
+#logo{
+    position: absolute;
+    right: 29%;
+    top: 20%;
+    color: rgb(255,255,255);
+    font-family: 'Courier New', Courier, monospace;
+    width: 600px;
+}
+#pcontainer{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+#titulo{
+    color: rgb(187,3,3);
+    text-transform: uppercase;
+    font-size: 45px;
+}
+#info{
+    font-size: medium;
+    color: hwb(0 0% 100%);
+    position: absolute;
+}
+#pinfo{
+    color: rgb(187,3,);
+}
+#pcanciones{
+    color: rgb(63,3,3);
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 45px;  
+    position: absolute;
+    top: 10%; 
+    left: 72%; 
+}
+#cn1{
+    border-radius: 100%;
+    width: 8%;
+    position: absolute;
+    top: 28%;
+    left: 74%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+#cn1:hover{
+    transform: scale(0.5);
+}
+#cn2{
+    border-radius: 100%;
+    width: 8%;
+    position: absolute;
+    top: 28%;
+    left: 85%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+#cn2:hover{
+    transform: scale(0.5);
+}
+#cn3{
+    border-radius: 100%;
+    width: 8%;
+    position: absolute;
+    top: 48%;
+    left: 74%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+#cn3:hover{
+    transform:scale(0.5);
+}
+#cn4{
+    border-radius: 100%;
+    width: 8%;
+    position: absolute;
+    top: 48%;
+    left: 85%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+#cn4:hover{
+    transform: scale(0.5);
+}
+#fotos{
+    position: absolute;
+    top: 82%;
+    left: 30%;
+}
+#inside-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    transition: 0.5s;
+    object-fit: cover;
+  }
+  #inside-pic:hover{
+    transform: scale(1.5);
+   
+  }
+
+#instagram{
+        position: absolute;
+    bottom:-10%;
+    left: 48%;
+    width: 50px;
+    height: 45px;
+    transition: 0.5s;
+}
+#instagram:hover{
+    transform: scale(1.5);
+}
+#derechos{
+    text-transform: uppercase;
+    color: brown;
+    position: absolute;
+    bottom: -20%;
+    left: 20%;
+    font-size: 30px;
+}
+form{
+    position: absolute;
+    left: 45%;
+}
+input{
+    background-color: #ff9891;
+    border-radius: 20px;
+    padding: 0.2%;
+    border-style: none;
+    color: black;
+    
+}
+
